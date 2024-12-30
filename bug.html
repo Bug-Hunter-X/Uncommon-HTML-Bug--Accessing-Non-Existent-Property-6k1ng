@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv">
+    <p>This paragraph is inside a div.</p>
+  </div>
+  <script>
+    // Incorrectly attempting to access a non-existent property
+    alert(myDiv.nonExistentProperty);
+  </script>
+</body>
+</html>
